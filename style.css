@@ -1,1 +1,39 @@
+html{
+    font-family: 'Arial', san-serif;
+    background: linear-gradient(to right #d03d977a, #82d78dca );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+box-shadow: 0 4-x 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input [type="number"]{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
