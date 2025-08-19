@@ -34,6 +34,23 @@ h1 {
 .formulario input [type="number"]{
     width: 200px;
     padding: 10px;
+    margin-bottom: 10px
     border-radius: 5px;
-    
+    border: 1px solid #cccccc;
+    font-size: 1.1em;
+}
+
+.formulario  input[type="submit"]{
+    padding: 10px 20px;
+    backgorund-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
 }
