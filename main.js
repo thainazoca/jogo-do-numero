@@ -48,17 +48,25 @@ function finalizarJogo() {
     document.body.appenChild(botaoReiniciar);
     botaoReiniciar.textContent = 'reiniciar jogo';
     botaoReiniciar.classList.add('botaoReiniciar');
-    document.body.appenChild(botaoReiniciar);
     botaoReiniciar.addEventListener('click', reinicar Jogo);
 }
 
 function reiniciar Jogo () {
     contagemPalpites = 1;
-    const paragrafosReiniciar = document.querySelectorAll('.paragrafosResultado p');
+    const paragrafosReiniciar = document.querySelectorAll('.paragrafosResultados p');
     for (const paragrafoReiniciar of paragrafosReiniciar) {
         paragrafoReiniciar.textcontent = "";
     }
+
+    botaoReiniciar.parentNode.removeChild(botaoReiniciar);
+    campoPalpite.disabled = false;
+    envioPalpite.disbled = false;
+    campoPalpite.value = "";
+    campoPalpite.focus();
+    ultimoResultado.style.backgroundColor = "White";
+    numeroAleatorio = Math.floor(Math.random() ' 100) + 1;
 }
+
     
 
 
