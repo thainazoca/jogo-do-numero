@@ -21,8 +21,8 @@ ultimoResultado.style.backgroundColor = "green";
 baixoOuAlto.textContent = "";
     finalizarJogo ();
 } else if (contagemPalpites === 10) {
-    ultimoResultado.textcontent =  "FIM DO JOGO";
-    baixoOuAlto.textcontent = "";
+    ultimoResultado.textContent =  "FIM DO JOGO";
+    baixoOuAlto.textContent = "";
     finalizarJogo();
 }else {
     ultimoResultado.textContent = "Errado";
